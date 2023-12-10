@@ -1,5 +1,6 @@
-torch
 codecarbon
 transformers
 pillow
 datasets
+-i https://download.pytorch.org/whl/cpu
+torch
