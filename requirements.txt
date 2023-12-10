@@ -2,5 +2,5 @@ codecarbon
 transformers
 pillow
 datasets
--i https://download.pytorch.org/whl/cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch

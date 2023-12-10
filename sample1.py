@@ -29,4 +29,4 @@ with torch.no_grad():
 
 # model predicts one of the 1000 ImageNet classes
 predicted_label = logits.argmax(-1).item()
-print(model.confi<tg.id2label[predicted_label])
+print(model.config.id2label[predicted_label])
